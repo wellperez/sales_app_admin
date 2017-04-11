@@ -13,6 +13,7 @@ gem 'rails_admin'
 gem 'devise'
 gem 'cancancan'
 gem 'carrierwave'
+gem 'rails_admin_rollincode', :git => 'git@github.com:wellperez/rollincode_custom.git'
 
 
 # Use sqlite3 as the database for Active Record

@@ -1,3 +1,10 @@
+GIT
+  remote: git@github.com:wellperez/rollincode_custom.git
+  revision: 9632e3910f1958de217a984381cf23b6c4ea1d26
+  specs:
+    rails_admin_rollincode (1.2.1)
+      rails (>= 4.0, < 6)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -209,6 +216,7 @@ DEPENDENCIES
   puma (~> 3.0)
   rails (~> 5.0.2)
   rails_admin
+  rails_admin_rollincode!
   sass-rails (~> 5.0)
   spring
   spring-watcher-listen (~> 2.0.0)

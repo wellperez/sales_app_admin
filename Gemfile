@@ -12,6 +12,7 @@ gem 'rails', '~> 5.0.2'
 gem 'rails_admin'
 gem 'devise'
 gem 'cancancan'
+gem 'carrierwave'
 
 
 # Use sqlite3 as the database for Active Record

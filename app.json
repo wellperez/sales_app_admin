@@ -1,0 +1,14 @@
+{
+  "name": "sales",
+  "description": "App criado como um Tutorial para o OneBitCode",
+  "keywords": [
+    "dokku",
+    "rails",
+    "http://onebitcode.com"
+  ],
+  "scripts": {
+    "dokku": {
+      "postdeploy": "bundle exec rake db:migrate && db:seed"
+    }
+  }
+}

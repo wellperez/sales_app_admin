@@ -15,6 +15,11 @@ gem 'cancancan'
 gem 'carrierwave'
 gem 'rails_admin_rollincode', :git => 'git@github.com:wellperez/rollincode_custom.git'
 
+# Gem para gerar os pdfs
+gem 'prawn-rails'
+# Gem para gerar os gráficos
+gem 'gruff'
+
 
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
@@ -55,6 +60,10 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
+end
+
+group :production do
+  gem 'pg'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

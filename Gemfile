@@ -13,7 +13,7 @@ gem 'rails_admin'
 gem 'devise'
 gem 'cancancan'
 gem 'carrierwave'
-gem 'rails_admin_rollincode', :git => 'git@github.com:wellperez/rollincode_custom.git'
+gem 'rails_admin_rollincode', '~> 1.0'
 
 # Gem para gerar os pdfs
 gem 'prawn-rails'

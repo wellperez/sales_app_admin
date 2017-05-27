@@ -14,6 +14,8 @@ gem 'devise'
 gem 'cancancan'
 gem 'carrierwave'
 gem 'rails_admin_rollincode', '~> 1.0'
+gem 'devise-i18n-views'
+gem 'rails-assets-bootstrap', source: 'https://rails-assets.org'
 
 # Gem para gerar os pdfs
 gem 'prawn-rails'
